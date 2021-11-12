@@ -10,5 +10,7 @@ Torchvision 0.7.0
 ```
 ## Datasets
 - CDD dataset
- - paper: []()
+  - paper: [Change detection in remote sensing images using conditional adversarial networks. International Archives of the Photogrammetry](https://drive.google.com/file/d/1GX656JqqOyBi_Ef0w65kDGV
+to-nHrNs9)
+  - WHU-CD: [Fully Convolutional Networks for Multisource Building Extraction From an Open Aerial and Satellite Imagery Data Set](http://study.rsgis.whu.edu.cn/pages/download/)
 
