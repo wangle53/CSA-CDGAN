@@ -16,3 +16,5 @@ to-nHrNs9)
   - LEVIR-CD: [A Spatial-Temporal Attention-Based Method and a New Dataset for Remote Sensing Image Change Detection]( https://justchenhao.github.io/LEVIR/)
 You also can download datasets after being processed by us. [[Baiduyun]](https://pan.baidu.com/s/1ptiznHupKRigJwT_NyMxwA) the password is hnbi. or [[GoogleDrive]]()
 ## Pretrained Model
+Pretrained models for CDD, LEVIR-CD and WHU-CD are available. You can download them from the following link.
+[[Baiduyun]](https://pan.baidu.com/s/1WxQ52qtGLE-gz2MpZztu7g) the password is yudl. [[GoogleDrive]]()
