@@ -19,8 +19,13 @@ You also can download datasets after being processed by us. [[Baiduyun]](https:/
 Pretrained models for CDD, LEVIR-CD and WHU-CD are available. You can download them from the following link.
 [[Baiduyun]](https://pan.baidu.com/s/1WxQ52qtGLE-gz2MpZztu7g) the password is yudl. [[GoogleDrive]](https://drive.google.com/drive/folders/1IQDz_s0LiUjw1WtLDrGGmR9rPOkbrgzP?usp=sharing)
 ## Test
-Before test, please download datasets and pretrained models. Revise the data-path in connstants.py to your path. Copy pretrained models to folder './dataset_name/outputs/best_weights', and run the following command:
-'''
+Before test, please download datasets and pretrained models. Revise the data-path in  `constants.py ` to your path. Copy pretrained models to folder './dataset_name/outputs/best_weights', and run the following command:
+```
 cd CSA-CDGAN_ROOT
+python make_dataset.py
 python test.py
-'''
+```
+`make_dataset.py` can generate .txt files for training, validation and test. Not that the dataset structure should be the same as following:
+>train
+>>file1
+>>>t0.jpg, t1.jpt, label.jpg
