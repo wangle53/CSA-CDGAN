@@ -45,3 +45,24 @@ python test.py
 &ensp;&ensp;|--file2  
 &ensp;&ensp;&ensp;&ensp;|--t0.jpg, t1.jpt, label.jpg   
 &ensp;&ensp;...  
+## Training
+```
+cd CSA-CDGAN_ROOT
+python make_dataset.py
+python -m visdom.server
+python train.py
+```
+To display training processing, copy 'http://localhost:8097' to your browser.
+## Citing TransCD
+If you use this repository or would like to refer the paper, please use the following BibTex entry.
+```
+@inproceddings{TransCD,
+title={CSA-CDGAN: Channel Self-Attention Based Generative Adversarial Network for Change Detection of Remote Sensing Images},
+author={ZHIXUE WANG, YU ZHANG*, LIN LUO, NAN WANG},
+yera={2021},
+}
+```
+## Reference
+```
+-Akcay, Samet, Amir Atapour-Abarghouei, and Toby P. Breckon. "Ganomaly: Semi-supervised anomaly detection via adversarial training." Asian conference on computer vision. Springer, Cham, 2018.
+```
