@@ -52,7 +52,7 @@ python make_dataset.py
 python -m visdom.server
 python train.py
 ```
-To display training processing, copy 'http://localhost:8097' to your browser.
+To display training processing, open 'http://localhost:8097' in your browser.
 ## Citing TransCD
 If you use this repository or would like to refer the paper, please use the following BibTex entry.
 ```
