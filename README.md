@@ -26,6 +26,22 @@ python make_dataset.py
 python test.py
 ```
 `make_dataset.py` can generate .txt files for training, validation and test. Not that the dataset structure should be the same as following:
->train
->>file1
->>>t0.jpg, t1.jpt, label.jpg
+>Custom dataset  
+|--train  
+&ensp;&ensp;|--file1  
+&ensp;&ensp;&ensp;&ensp;|--t0.jpg, t1.jpt, label.jpg  
+&ensp;&ensp;|--file2  
+&ensp;&ensp;&ensp;&ensp;|--t0.jpg, t1.jpt, label.jpg   
+&ensp;&ensp;...  
+|--test  
+&ensp;&ensp;|--file1  
+&ensp;&ensp;&ensp;&ensp;|--t0.jpg, t1.jpt, label.jpg  
+&ensp;&ensp;|--file2  
+&ensp;&ensp;&ensp;&ensp;|--t0.jpg, t1.jpt, label.jpg   
+&ensp;&ensp;...  
+|--validation  
+&ensp;&ensp;|--file1  
+&ensp;&ensp;&ensp;&ensp;|--t0.jpg, t1.jpt, label.jpg  
+&ensp;&ensp;|--file2  
+&ensp;&ensp;&ensp;&ensp;|--t0.jpg, t1.jpt, label.jpg   
+&ensp;&ensp;...  
