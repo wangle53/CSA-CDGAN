@@ -9,8 +9,7 @@ Visdom 0.1.8.9
 Torchvision 0.7.0
 ```
 ## Datasets
-- CDD dataset
-  - paper: [Change detection in remote sensing images using conditional adversarial networks](https://drive.google.com/file/d/1GX656JqqOyBi_Ef0w65kDGVto-nHrNs9)
+  - CDD: [Change detection in remote sensing images using conditional adversarial networks](https://drive.google.com/file/d/1GX656JqqOyBi_Ef0w65kDGVto-nHrNs9)
   - WHU-CD: [Fully Convolutional Networks for Multisource Building Extraction From an Open Aerial and Satellite Imagery Data Set](http://study.rsgis.whu.edu.cn/pages/download/)
   - LEVIR-CD: [A Spatial-Temporal Attention-Based Method and a New Dataset for Remote Sensing Image Change Detection]( https://justchenhao.github.io/LEVIR/)  
 You also can download datasets after being processed by us. [[Baiduyun]](https://pan.baidu.com/s/1ptiznHupKRigJwT_NyMxwA) the password is hnbi. or [[GoogleDrive]](https://drive.google.com/drive/folders/16N0Ii5VsouxE2Ak9PNq0Kac4v1801Nmx?usp=sharing)
