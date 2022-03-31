@@ -1,6 +1,14 @@
 # CSA-CDGAN: Channel Self-Attention Based Generative Adversarial Network for Change Detection of Remote Sensing Images
 A general framework for change detection of remote sensing images 
 ![image](https://user-images.githubusercontent.com/79884379/141422470-08dbcf3f-f2e2-410a-8383-671fc955570d.png)
+## Quantitative & Qualitative Results on CDD, WHU-CD, LEVIR-CD Datasets
+![image](https://user-images.githubusercontent.com/79884379/161015442-4a4a8c19-b2d8-484a-9620-ec529fe2d1a0.png)
+![image](https://user-images.githubusercontent.com/79884379/161015514-15326ba5-66e8-4eab-b4c8-52f4fcdcad9c.png)
+![image](https://user-images.githubusercontent.com/79884379/161015569-40f5b2bb-dc20-4183-a9d7-594d8663a217.png)
+![image](https://user-images.githubusercontent.com/79884379/161015612-2eed4cfc-be8e-4adc-88e6-39b6cfbf63e0.png)
+![image](https://user-images.githubusercontent.com/79884379/161015733-89ba4a56-2119-4a7c-90cd-9445140fe174.png)
+![image](https://user-images.githubusercontent.com/79884379/161015764-9e64d3e6-324d-400b-ae8e-48892bfddc26.png)
+
 ## Requirements
 ```
 Python 3.7.0  
