@@ -59,10 +59,10 @@ python -m visdom.server
 python train.py
 ```
 To display training processing, copy 'http://localhost:8097' to your browser.
-## Citing TransCD
+## Citing CSA-CDGAN
 If you use this repository or would like to refer the paper, please use the following BibTex entry.
 ```
-@inproceddings{TransCD,
+@inproceddings{CSA-CDGAN,
 title={CSA-CDGAN: Channel Self-Attention Based Generative Adversarial Network for Change Detection of Remote Sensing Images},
 author={ZHIXUE WANG, YU ZHANG*, LIN LUO, NAN WANG},
 yera={2021},
