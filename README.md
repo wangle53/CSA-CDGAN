@@ -63,10 +63,13 @@ To display training processing, copy 'http://localhost:8097' to your browser.
 ## Citing CSA-CDGAN
 If you use this repository or would like to refer the paper, please use the following BibTex entry.
 ```
-@inproceddings{CSA-CDGAN,
-title={CSA-CDGAN: Channel Self-Attention Based Generative Adversarial Network for Change Detection of Remote Sensing Images},
-author={ZHIXUE WANG, YU ZHANG*, LIN LUO, NAN WANG},
-yera={2021},
+@article{wang2022csa,
+  title={CSA-CDGAN: channel self-attention-based generative adversarial network for change detection of remote sensing images},
+  author={Wang, Zhixue and Zhang, Yu and Luo, Lin and Wang, Nan},
+  journal={Neural Computing and Applications},
+  pages={1--15},
+  year={2022},
+  publisher={Springer}
 }
 ```
 ## Reference
