@@ -28,7 +28,7 @@ def plot_current_errors(epoch, counter_ratio, errors,vis):
             X=np.stack([np.array(plot_data['X'])] * len(plot_data['legend']), 1),
             Y=np.array(plot_data['Y']),
             opts={
-                'title': 'WIRE' + ' loss over time',
+                'title': 'CSA-CDGAN' + ' loss over time',
                 'legend': plot_data['legend'],
                 'xlabel': 'Epoch',
                 'ylabel': 'Loss'
